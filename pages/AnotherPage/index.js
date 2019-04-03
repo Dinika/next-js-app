@@ -7,6 +7,11 @@ const AnotherPage = () => (
     This is another page <br />
     <Greeting message="Hola!" />
     <button onClick={() => Router.push('/')}>Back</button>
+    <style jsx>{`
+      div {
+        text-align: center;
+      }
+    `}</style>
   </div>
 );
 export default AnotherPage;
